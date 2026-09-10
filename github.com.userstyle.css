@@ -1,3 +1,8 @@
 .AppHeader-CopilotChat {
   display: none !important;
 }
+
+a[href="/settings/copilot"],
+button[data-view-component="true"]:has(~ ul > li[data-item-id="copilot_features"]) {
+  display: none;
+}
