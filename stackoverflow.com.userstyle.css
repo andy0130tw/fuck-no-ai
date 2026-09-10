@@ -1,0 +1,5 @@
+#nav-askstack,
+#nav-sofa,
+[data-dismiss-url="/stack-overflow-for-agents/sidebar-promo/dismiss"] {
+  display: none;
+}

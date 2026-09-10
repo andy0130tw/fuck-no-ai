@@ -1,0 +1,4 @@
+#menu-section-button-ai,
+[data-testid=ai-panels] {
+  display: none;
+}
