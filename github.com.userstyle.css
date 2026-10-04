@@ -6,3 +6,8 @@ a[href="/settings/copilot"],
 button[data-view-component="true"]:has(~ ul > li[data-item-id="copilot_features"]) {
   display: none;
 }
+
+/* "Open in GitHub Copilot app" */
+[data-component="ActionList"] > li:has(span[class^="CopilotAppOpenAction-module"]) {
+  display: none;
+}
